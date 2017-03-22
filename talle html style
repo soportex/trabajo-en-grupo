@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>style DRAGON</title>
+  <link rel="stylesheet" href = "style.css">
+  <script>
+  function changeTitleFont() {
+    document.getElementById("title").style.color = "#68010A";; 
+  }
+   </script>
+
+</head>
+
+<body>
+<leftmargin="8" topmargin="6" marginwidth="5">
+<body style ="background:#454444;">
+  <tag id="header" style=" background:white;text-align:left;">
+    <img style="max-width:250px;max-height:250px;float:center;position:relative;left:700px "
+    src="http://i1095.photobucket.com/albums/i472/hernandezj1076/Dragons_2.jpg"> </img>
+    <h1 style="color:#01FE0A" id="title"> A true student story</h1>
+    <button style="position:absolute; top:300px; color:white"  type="button" onclick="changeTitleFont();">Click!</button>
+
+  </tag>
+
+  <section id=" Facts">
+
+
+  <h2 style ="color:#053C27;position:relative; top:100px;"> Attack Facts</h2>
+  <p style ="color:#CB1E03; position:relative; top:100px">
+    This story talks about that how a heroes group named "students" fight with a new Red Dragon,
+
+  </p>
+  <h2 style="position:relative; top:100px; color:#2D1783"> Qualities </h2>
+
+<h3 style ="color:#0B8AA0;position:relative; top:100px;">This one has a lot of strong qualities:</h3>
+  <ul style ="color:#6E7803;position:relative; top:100px">
+      <li>Strong</li>
+      <li>Strategic</li>
+      <li>Smart</li>
+      <li>order</li>
+  </ul>
+<h2 style="position:relative; top:100px; color:#7AB103"> How to Sound? Sound </h2>
+
+<audio controls autoplay loop  style ="color:#06C856;position:relative; top:200px">
+  <source src="http://soundbible.com/mp3/European_Dragon_Roaring_and_breathe_fire-daniel-simon.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+
+
+
+  <h2 style="position:relative; top:200px; color:#C17A28"> Attack Pattern</h2>
+
+</article style ="position:relative; top:200px">
+  <p style ="color:#CDF5C9; position:relative; top:200px">
+    <b>It always figth with a different strategies, but each  has some in common:</b>
+  </p>
+
+<ol style ="color:#847EAB;position:relative; top:200px">
+         <li>Recognizing</li>
+         <li>Fear</li>
+         <li>attack</li>
+         <li>Kill</li>
+</ol>
+
+<h2 style="position:relative; top:200px; color:#EDAE10"> How to Attack? video </h2>
+<video style="position:relative; top:200px;" width="520" height="440" controls loop>
+  <source
+  src="https://cdn.shutterstock.com/shutterstock/videos/5939159/preview/stock-footage-dragon-attacking-green-screen.mp4"
+  type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+</article>
+
+
+
+  <section>
+
+
+</body>
