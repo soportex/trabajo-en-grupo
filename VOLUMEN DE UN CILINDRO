@@ -1,0 +1,9 @@
+#haya el volumen de un cilindro        
+x = int(input("ingrese la medida del ciculo "))
+r =(x/2)
+p = 3.14
+ac = (p**2)
+aC = (ac*r)
+y = int(input("ingrese la altura del cilindro "))
+v = (aC*y)
+print ('El volumen del cilindro es',v)
