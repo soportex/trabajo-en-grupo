@@ -1,0 +1,75 @@
+class Persona:
+    def __init__(self,nombre):
+        self.nombre = nombre
+        print('mi nombre es',nombre)
+        
+    def jugar(self,deporte):
+        print('yo practico', deporte)
+        
+class Deportista(Persona):
+    def entrenar(self,a):
+        print('Debo ir a', a)
+        
+class Seleccion(Deportista):
+    def seleccionado(self,de):
+        print('soy parte de la seleccion de', de)
+        
+primero = Seleccion("Juana")
+primero.jugar('futbol')
+primero.entrenar('correr')
+primero.seleccionado('Colombia')
+
+segundo = Seleccion('Isabel')
+segundo.jugar('futbol')
+segundo.entrenar('saltar')
+segundo.seleccionado('Argentina')
+
+tercero = Seleccion('Camila')
+tercero.jugar('futbol')
+tercero.entrenar('practicar tiros libres')
+tercero.seleccionado('Chile')
+
+cuarto = Seleccion('Scarlet')
+cuarto.jugar('futbol')
+cuarto.entrenar('practicar tiros desde punto penal')
+cuarto.seleccionado('Brazil')
+
+quinto = Seleccion('Sofia')
+quinto.jugar('futbol')
+quinto.entrenar('hace abdominales')
+quinto.seleccionado('Uruguay')
+
+sexto = Seleccion('Karen')
+sexto.jugar('futbol')
+sexto.entrenar('practicar tiros de esquina')
+sexto.seleccionado('Paraguay')
+
+septimo = Seleccion('Lorena')
+septimo.jugar('futbol')
+septimo.entrenar('practicar en el arco')
+septimo.seleccionado('Mexico')
+
+octavo = Seleccion('Andrea')
+octavo.jugar('futbol')
+octavo.entrenar('practicar cabezasos')
+octavo.seleccionado('Alemania')
+
+noveno = Seleccion('Angela')
+noveno.jugar('futbol')
+noveno.entrenar('practicar dominio del balon')
+noveno.seleccionado('Inglaterra')
+
+decimo = Seleccion('Diana')
+decimo.jugar('futbol')
+decimo.entrenar('practicar pases englobados')
+decimo.seleccionado('Francia')
+
+once = Seleccion('Erica')
+once.jugar('futbol')
+once.entrenar('practicar la gambeta')
+once.seleccionado('Italia')
+
+
+
+
+
